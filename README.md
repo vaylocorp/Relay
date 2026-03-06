@@ -100,7 +100,7 @@ Star this repository to be notified when documentation is published.
 </div>
 
 <p style="margin: 20px 0; font-size: 1.1em;">
-  <a href="https://vaylo.xyz/relay">vaylo.xyz/relay</a>  
+  <!-- <a href="https://vaylo.xyz/relay">vaylo.xyz/relay</a> ACTIVATE ONCE DOMAIN IS BOUGHT AND WEBSITE IS DONE -->
   <span style="margin: 0 12px;">•</span>  
   Developed by <a href="https://github.com/vaylocorp">Vaylo</a>
 </p>
