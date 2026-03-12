@@ -5,9 +5,9 @@
 
 # R E L A Y
 
-### Ethical OSINT & OPSEC Intelligence Platform
+### Community Edition — Open Source OSINT Platform
 
-**Public sources only · Full provenance · Strict compliance**
+**Public sources only · Open source · Transparent intelligence**
 
 <br>
 
@@ -21,64 +21,112 @@
 
 ---
 
-### 🎯 Purpose
+## 🎯 Purpose
 
-Relay builds accurate digital footprints exclusively from publicly available sources — open web, public records, indexed data — while maintaining complete traceability and legal compliance.
+**Relay Community Edition** is an open-source **OSINT (Open-Source Intelligence) platform** designed to help researchers discover, organize, and analyze **publicly available information about individuals and organizations across the internet**.
 
-Designed for security professionals, researchers, and organizations that need reliable intelligence without legal or ethical risk.
+This repository hosts the **free and open-source edition of Relay**, built to provide a **transparent and ethical framework for open-source investigations**.
 
----
+Rather than focusing on mass data collection, Relay prioritizes:
 
-### 🔍 Core Capabilities
+- **Traceable intelligence**
+- **Reliable correlations**
+- **Clear data provenance**
 
-- Cross-identifier correlation (usernames · emails · phones · aliases)  
-- Geolocation inference from public metadata and activity  
-- Automated exposure & risk scoring with confidence levels  
-- Full source attribution — every result links to original public location  
-- Conservative matching logic to minimize false positives  
-- Extensible public-source connectors
+Every result produced by Relay links directly to its **original public source**, allowing investigations to remain **verifiable, auditable, and legally compliant**.
 
----
+Relay is designed for:
 
-### ⚙️ Operating Modes
-
-Relay operates in two primary modes, each optimized for different reconnaissance scopes:
-
-**🧑 Personal OSINT**  
-Targeted scanning of an individual's online footprint.  
-Starts with guided questions (name, known usernames, email domains, approximate location, etc.) to initiate focused, ethical collection of public traces, social media metadata, leaks, and visibility risks.
-
-**🏢 Company OSINT**  
-Comprehensive profiling of an organization.  
-Collects public company data (domains, subsidiaries, key personnel, filings, exposed assets) and associated personal footprints of executives/employees — all from open sources — to reveal corporate exposure, supply-chain links, and potential attack surface.
-
-Both modes enforce strict public-source-only rules and full result provenance.
+- OSINT researchers  
+- Investigative journalists  
+- Security analysts  
+- Developers building intelligence tools  
+- Students learning open-source investigation
 
 ---
 
-### 🛡️ Key Differentiators
+## 🔍 Core Capabilities
 
-- **GDPR-native design** — minimization, audit logs, no unnecessary retention  
-- **Public-data exclusivity** — no dark web access, no credential stuffing, no restricted/toS-violating scraping; however, if publicly indexed breach notifications, researcher-published leak indexes, or openly available dump mirrors (e.g. clear-web pastes or public HIBP-style aggregators) contain relevant data about the subject, Relay will collect and analyze that information  
-- **End-to-end traceability** — provenance chain included with every finding  
-- **High-performance engine** — C++ correlation + Python orchestration  
-- **Dual-purpose utility** — effective for both red-team recon and blue-team defense  
-- **Accuracy-first approach** — prioritizes quality and verifiability over volume
+Relay Community Edition provides a **structured workflow for open-source investigations**.
+
+### Identity Correlation
+Connect multiple identifiers belonging to the same subject:
+
+- Usernames  
+- Email addresses  
+- Phone numbers  
+- Aliases
+
+### Public Data Discovery
+Aggregate information from **publicly accessible web sources** and organize it into structured intelligence profiles.
+
+### Digital Footprint Mapping
+Transform scattered online traces into **clear investigative context**.
+
+### Source Attribution
+Every result includes **direct references to the original public location**, ensuring transparency.
+
+### Conservative Matching Logic
+Relay uses **careful correlation methods** designed to minimize false positives.
+
+### Extensible Architecture
+The platform is built to be **modular**, allowing developers to add new public-source connectors and expand investigative coverage.
 
 ---
 
-### 📡 Development Status
+## 🧑‍💻 Use Cases
 
-Closed alpha stage.
+Relay Community Edition supports a wide range of open-source investigation workflows.
 
-Planned public releases (non-code content):
+Common use cases include:
 
-- Architecture & data-flow documentation  
-- Ethical sourcing & compliance framework  
-- Mode-specific example workflows  
-- Beta access waitlist opening
+- **Digital footprint investigations**
+- **Background research and verification**
+- **Open-source reconnaissance**
+- **Exposure and visibility analysis**
+- **OSINT research training**
 
-Star this repository to be notified when documentation is published.
+Because Relay is **fully open source**, the platform can be **audited, modified, and extended by the community**.
+
+---
+
+## 🧠 Relay Intelligence
+
+In addition to the Community Edition, a **separate professional platform called _Relay Intelligence_ is in development**.
+
+Relay Intelligence is **not open source** and **will not be publicly distributed**.  
+It is intended exclusively for **verified organizations and professional teams**, such as cybersecurity groups, government institutions, corporate security teams, and authorized investigative organizations.
+
+Compared to the Community Edition, Relay Intelligence expands the platform with **advanced analysis, automation, and operational investigation capabilities**.
+
+Access to Relay Intelligence will be **strictly controlled**. Organizations requesting access must pass **verification procedures** to confirm they represent legitimate entities before any access is granted. The platform will primarily be available through **controlled demonstrations and verified partnerships**.
+
+---
+
+## 🛡️ Principles
+
+Relay is built around **responsible intelligence practices**.
+
+**Public Sources Only**  
+Relay uses exclusively **publicly accessible information**.
+
+**Transparency First**  
+Every finding includes **clear source attribution**.
+
+**GDPR-Aware Design**  
+The platform follows **data minimization and responsible handling principles**.
+
+**Accuracy Over Volume**  
+Relay prioritizes **reliable and verifiable intelligence** rather than large quantities of data.
+
+Relay does **not perform**:
+
+- Credential stuffing  
+- Illegal scraping  
+- Access to private databases  
+- Bypassing protected systems  
+
+It simply helps researchers **organize and analyze information that already exists in the public domain**.
 
 ---
 
