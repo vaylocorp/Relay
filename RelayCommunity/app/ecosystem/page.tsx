@@ -70,9 +70,12 @@ export default function EcosystemPage() {
                 <FeatureItem label="Authorized Agency Verification" active />
               </ul>
             </div>
-            <a href="https://vaylo.xyz" target="_blank" rel="noreferrer" className="btn-primary w-full py-5 text-sm mt-16 shadow-[0_8px_32px_rgba(255,255,255,0.1)]">
+            <Link
+              href="/IntelligenceGateway"
+              className="btn-primary w-full py-5 text-sm mt-16 shadow-[0_8px_32px_rgba(255,255,255,0.1)]"
+            >
               Inquire Authorization
-            </a>
+            </Link>
           </div>
         </div>
 
